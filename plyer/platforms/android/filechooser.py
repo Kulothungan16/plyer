@@ -113,7 +113,7 @@ class AndroidFileChooser(FileChooser):
 
         # create Intent for opening
         file_intent = Intent(Intent.ACTION_GET_CONTENT)
-        file_intent.setType('*/*')
+        file_intent.setType('image/*')
         file_intent.addCategory(
             Intent.CATEGORY_OPENABLE
         )
